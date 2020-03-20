@@ -1,0 +1,48 @@
+.navmenu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+.navitem {
+    float: right;
+}
+.navitem a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+} 
+.navitem a:hover {
+    background-color: #111111;
+}
+
+h2 a {
+    color:#0fa36b;
+}
+h2 a:hover {
+    text-decoration: none;
+    color:black;
+}
+
+.photo_area {
+    text-align: center;
+}
+.photo {
+    border-radius: 10px;
+}
+
+.skills_area {
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.item {
+    border-radius: 10px;
+}
+
+.footer {
+    background-color: #333333;
+}
