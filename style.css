@@ -3,10 +3,29 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333333;
 }
 .navitem {
     float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.navlogo {
+    float: left;
+    margin-left: 20px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+.signlogo {
+    font-weight: bolder;
+    font-size: 18px;
+    color: #39ff14;
+}
+.textlogo {
+    font-weight: bolder;
+    font-size: 18px;
 }
 .navitem a {
     display: block;
@@ -15,28 +34,55 @@
     padding: 20px;
     text-decoration: none;
 } 
-.navitem a:hover {
-    background-color: #111111;
+.navitem .but:hover {
+    color: #39ff14;
+}
+.navitem .active {
+    color: #39ff14;
+}
+.navitem .contactbtn {
+    background-color: #39ff14;
+    color: #202020;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 15px 30px;
+    border-radius: 2px;
+    font-weight: bolder;
+}
+.navitem .contactbtn:hover{
+    background-color: transparent;
+    text-decoration: none;
+    color: #39ff14;
+    border: 2px solid #39ff14;
 }
 
-h2 a {
-    color:#0fa36b;
+h1 {
+    font-weight: bold;
+    letter-spacing: -1px;
+    font-size: 45px;
 }
-h2 a:hover {
+h3 a {
+    color:#39ff14;
+}
+h3 a:hover {
     text-decoration: none;
-    color:black;
+    color:white;
 }
 
 .photo_area {
     text-align: center;
 }
 .photo {
-    border-radius: 10px;
+    border: solid 2px #39ff14;
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
 }
 
 .skills_area {
-    border: 1px solid black;
+    border: 2px solid #39ff14;
     border-radius: 10px;
+    padding: 20px 15px;
 }
 
 .item {
@@ -44,5 +90,73 @@ h2 a:hover {
 }
 
 .footer {
-    background-color: #333333;
+    background-color: #182631;
+}
+
+body {
+    background-color: #202020;
+    font-family: Montserrat;
+}
+
+.description_area p,h1,h3,h4 {
+    color: white;
+}
+
+.intro_area {
+    margin-top: 5%;
+    margin-bottom: 25px;
+}
+.green {
+    color: #39ff14;
+}
+
+.linha {
+    border-color: #39ff14;
+    border-width: 2px;
+    border-radius: 5px;
+
+}
+
+.title {
+    font-weight: bolder;
+}
+
+li {
+    color: white;
+}
+
+.about-me {
+    margin-bottom: 5%;
+}
+
+.exp {
+    line-height: 10px;
+}
+.contactbtn1 {
+    background-color: #39ff14;
+    color: #202020;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 15px 30px;
+    border-radius: 2px;
+    font-weight: bolder;
+}
+.contactbtn1:hover{
+    background-color: transparent;
+    text-decoration: none;
+    color: #39ff14;
+    border: 2px solid #39ff14;
+}
+.contato{
+    background-color: #202020;
+    border: 2px solid #39ff14;
+    border-radius: 25px;
+}
+.contactbtn2 {
+    background-color: #39ff14;
+    border: 0;
+    color: #202020;
+    padding: 7px 14px;
+    border-radius: 5px;
+    font-weight: bolder;
 }
