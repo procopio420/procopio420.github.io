@@ -71,12 +71,16 @@ h3 a:hover {
 
 .photo_area {
     text-align: center;
+    padding: 2.5%;
+    border-right: 5px solid #39ff14;
+    border-top: 5px solid #39ff14;
 }
 .photo {
-    border: solid 2px #39ff14;
     border-radius: 50%;
-    height: 400px;
-    width: 400px;
+    max-height: 100%;
+    max-width: 100%;
+    min-width: 50%;
+    min-height: 50%;
 }
 
 .skills_area {
@@ -89,10 +93,6 @@ h3 a:hover {
     border-radius: 10px;
 }
 
-.footer {
-    background-color: #182631;
-}
-
 body {
     background-color: #202020;
     font-family: Montserrat;
@@ -100,10 +100,17 @@ body {
 
 .description_area p,h1,h3,h4 {
     color: white;
+    max-height: 100%;
+    max-width: 100%;
+}
+.description_area {
+    padding: 30px;
+    border-bottom: 5px solid #39ff14;
+    border-left: 5px solid #39ff14;
 }
 
 .intro_area {
-    margin-top: 5%;
+    margin-top: 35px;
     margin-bottom: 25px;
 }
 .green {
@@ -159,4 +166,12 @@ li {
     padding: 7px 14px;
     border-radius: 5px;
     font-weight: bolder;
+}
+
+.button-area {
+    margin-top: 35px;
+}
+
+li.impar{
+    text-decoration: underline;
 }
